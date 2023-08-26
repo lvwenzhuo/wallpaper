@@ -1,0 +1,18 @@
+package com.yuren.tech.wallpaper
+
+import android.os.Bundle
+import android.view.LayoutInflater
+import android.view.View
+import android.view.ViewGroup
+import androidx.fragment.app.Fragment
+import com.yuren.tech.R
+
+class WallpaperFragment:Fragment() {
+    override fun onCreateView(
+        inflater: LayoutInflater,
+        container: ViewGroup?,
+        savedInstanceState: Bundle?
+    ): View? {
+        return inflater.inflate(R.layout.wallpaper_list, container, false)
+    }
+}
